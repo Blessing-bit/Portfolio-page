@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "Proxima";
+    src: url(./font/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-black.otf);
+}
+
+@font-face {
+    font-family: "Proxima Regular";
+    src: url(./Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-regular.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Proxima",Arial, Helvetica, sans-serif;
+}
+header,header div, nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+header nav{
+    gap: 30px;
+    ;
+    
+}
+.logo{
+    color: white;
+    margin-right: 250px;
+    
+    
+}
+.logoo{
+    background-color: white;
+    width: 20px;;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 35px;
+    align-items: center;
+}
+.bgb{
+    background-color: rgb(1, 1, 17);
+    min-height: 60vh;
+    padding-top: 5%;
+}
+p{
+    color: white;
+    font-family: 'Proxima Regular';
+
+}
+p span{
+    font-size: 20px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.action{
+    background-color: tomato;
+    color: white;
+
+    display: flex;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+.hero{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+
+    padding: 60px;
+    justify-content: center;
+}
+
+.dimage{
+    
+}
+.sct2{
+    
+    background-color: rgb(24, 24, 27);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+    line-height: 2rem;
+    
+}
+
+
+.sct{
+    margin: 100px;
+}
+.sctt{
+    margin-top: 25px;
+    line-height: 2rem;
+} .brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.bg-black{
+    background-color: black;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.box1{
+padding: 10px;
+border:2px solid white;
+margin: 0px;
+color: white;
+padding: 50px;
+
+}
+.db{
+color: white;
+    width: 30px;
+    margin: 10px;
+    ;
+}
+.p1{
+    line-height: 2rem;
+}
+hr{
+    color: red;
+    width:60px;
+    padding:auto;
+    margin:20px auto;
+    background-color: red;
+    height:5px;
+}
+.boxx{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    
+}
+.box2{
+
+margin:0px ;
+border: 1px solid white;
+color: white;
+
+}
+.imgg{
+    width: 100%;
+}
+.button{
+    color: white;
+    border-radius: 8px;
+    background-color: red;
+    padding: 15px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    justify-content: center;
+    
+}
+.sct3{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+.tbox{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+
+}
+.smc{
+    display: flex;
+    border-radius: 8px;
+    margin: 0px;
+    border:3px solid rgb(221, 43, 43);
+    color: white;
+     width: 38px;
+    height: 40px;
+    
+}
+.cimg{
+    width: 100%;
+}
+.smc2{
+ display: flex;
+    border-radius: 8px;
+    margin: 0px;
+    border:3px solid rgb(221, 43, 43);
+    color: white;
+     width: 45px;
+    height: 50px;
+
+}
+
+.testi{
+    border: 1px solid white;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+.quote{
+    color: white;
+}
+.hd{
+    padding: 20px;
+}
+.scttt{
+    background-color: rgb(39, 36, 31);
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.message{
+    border: 1px solid white;
+    padding: 80px;
+    margin: 30px;
+    
+}
+.buttonn{
+    color: white;
+    border-radius: 8px;
+    background-color: red;
+    width: fit-content;
+    padding: 30px;
+    height: 12px;
+    justify-content: center;
+    margin:auto;
+    
+}
+footer{
+color: white;
+background-color: rgb(80, 67, 67);
+margin-top: 10px;
+padding: 30px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foottxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
